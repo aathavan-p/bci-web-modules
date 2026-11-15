@@ -119,6 +119,8 @@ Each module lives in its own folder and exposes a single `render()` function, as
 
 | Name | Roll no. | Main responsibility |
 |------|----------|---------------------|
-| _fill in_ | | |
-| _fill in_ | | |
-| _fill in_ | | |
+| Aathavan P | ME23B1028 | Shared data layer (`bci_common/data.py`): synthetic motor-imagery sample generator, PhysioNet EEGBCI loader, file upload (FIF/EDF/BDF/GDF/SET/CSV); repository setup and merge into the course app (`app.py`) |
+| Harivarman M | ME23B1025 | Data Loading module (`modules/data_loading/`): window extraction, resampling and aliasing demo, channel quality statistics; linked traces, head map, spectrum and navigator plots; Explain panel and questions |
+| Nishal V | ME23B1026 | Feature extraction core (`modules/feature_extraction/core.py`): band power (Welch), CSP, Hjorth parameters, Fisher score, leak-free cross-validation and chance threshold |
+| Pazhaniyappan P | ME23B2003 | Feature Extraction UI (`modules/feature_extraction/module.py`): linked class spectra, separability head map, feature scatter and Fisher bars, band sweep; Explain panel and questions |
+| Siva BalaKumaran S | ME23B1069 | Shared UI and quality (`bci_common/ui.py`, `plotting.py`, `export.py`): code and parameter export, head-map plotting; automated tests and CI; README, user and developer guides |
