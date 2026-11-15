@@ -1,0 +1,10 @@
+# Tested with Python 3.11-3.13 and the versions below.
+mne>=1.8,<2
+streamlit>=1.40
+plotly>=5.20
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+pandas>=2.1
+pytest>=8
+edfio>=0.4  # only for the offline PhysioNet loader test
